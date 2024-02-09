@@ -1,0 +1,14 @@
+{% load menu_tags %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+</head>
+
+<body>
+<ul>
+    {% block content %}
+        {% draw_menu 'main_menu' %}
+    {% endblock %}
+</ul>
+</body>
